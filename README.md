@@ -19,13 +19,13 @@ VMAF is the industry standard metric for measuring perceptual video quality, dev
 ### Using the PowerShell launcher (Windows)
 
 ```powershell
-.\vmaf_calc.ps1
+.\vmaf_cli_launcher.ps1
 ```
 
 This checks for Python and the `rich` package, installs it if needed, and launches the calculator. You can also pass arguments:
 
 ```powershell
-.\vmaf_calc.ps1 -Original "C:\videos\ref.mkv" -Distorted "C:\videos\encoded.mkv" -Workers 4
+.\vmaf_cli_launcher.ps1 -Original "C:\videos\ref.mkv" -Distorted "C:\videos\encoded.mkv" -Workers 4
 ```
 
 ### Running the Python script directly
